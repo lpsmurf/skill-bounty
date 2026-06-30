@@ -11,6 +11,12 @@ It shops every major bridge — **Circle CCTP, Mayan, deBridge, Allbridge** — 
 the best net-of-fee route plus the full ranked breakdown, and even tells the agent when paying for
 aggregation isn't worth it.
 
+## Demo
+
+A real mainnet round trip (Solana → Polygon → Solana), best-rate routed and safety-gated:
+
+![Cross-chain round trip demo](./demo/roundtrip.gif)
+
 ## Why it's useful
 
 - **One call, best rate.** Quote 4 providers in parallel; get the cheapest net-of-fee route + the ranked comparison.
@@ -67,6 +73,13 @@ install.sh         installer
 - Solana → Polygon: [`5PRGrU7q…62J3Qk`](https://explorer.solana.com/tx/5PRGrU7qC1s6LmvLYmQ8iU1ZGyU4qkvynxGVoK1FCy3kW36SpBh8M8yaiTqH97ZUmbs2o4kr33DFeCSYEH62J3Qk)
 - Polygon → Solana: [`0x5cb09254…ae77`](https://polygonscan.com/tx/0x5cb09254977140845386432ae6b89416f3883c35a9b3254a36a2a9979642ae77)
 
+## About HFSP Labs
+
+Built by **HFSP Labs** — we build autonomous, agent-native infrastructure on Solana, including
+**Clawdrop** (per-user Solana AI agents that run 24/7 on the SendAI Agent Kit) and a suite of
+**x402** payment skills. This skill is part of that work: giving Solana agents a safe, best-rate
+way to move value across chains and rails.
+
 ## License
 
-MIT.
+MIT — ready to be merged or submoduled into the Solana AI Kit.
