@@ -2,6 +2,8 @@
 
 **Best-rate cross-chain bridge aggregator for Solana agents.**
 
+> Standalone, submodule-ready repo: https://github.com/lpsmurf/solana-x402-bridge-skill
+
 Your Solana agent has USDC, but the opportunity is on another chain — an invoice to settle on
 Base, a market on Polygon, yield on Arbitrum. This skill lets the agent move that USDC to any EVM
 chain **at the best available rate and actually execute it** — safely, in one call, from the same
